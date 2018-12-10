@@ -2,7 +2,7 @@
   "name": "event-107win30days",
   "description": "eHanlin 國中考前30天107版",
   "author": "rodick <rodick@ehanlin.com.tw>",
-  "version": "0.0.1-SNAPSHOT",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/hanlin-edu-tech/event-107win30days"
