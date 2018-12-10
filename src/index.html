@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="https://www.ehanlin.com.tw/lesscss/ehanlin-basicss.css"/>
+    <link type="text/css" rel="stylesheet" href="css/win30days.css"/>
+    <link type="image/png" rel="icon" href="https://www.ehanlin.com.tw/images/favicon.png"/>
+    <title>翰林雲端學院 - 線上學習首選 - 免費試用小中高課程</title>
+</head>
+
+<body class="basic">
+<header id="ehanlin-header" class="layout-top"></header>
+<nav id="ehanlin-menu"></nav>
+
+<div class="left-side">
+    <ul class="menu">
+        <li id="贏戰考前30天" class="menu-type">
+            <a>贏戰考前30天</a>
+            <ul>
+                <li>
+                    <a><i></i>英語英聽練習</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="box">
+        <img class="cover" src="img/cover.jpg">
+    </div>
+
+    <div class="box">
+        <a href="/type/TRIAL/category/%E3%80%90e%E5%90%8D%E5%B8%AB%E3%80%91%E9%AB%98%E4%B8%AD%E5%85%88%E4%BF%AE/SalesPlans.html">
+            <img class="banner" src="img/banner2.gif">
+        </a>
+    </div>
+</div>
+
+<div class="box right">
+    <a href="/type/ONLINE/category/%E3%80%90e%E5%90%8D%E5%B8%AB%E3%80%91%E5%9C%8B%E4%B8%AD%E6%9C%83%E8%80%83%E7%B8%BD%E8%A4%87%E7%BF%92/SalesPlans.html">
+        <img class="banner" src="img/banner1.gif">
+    </a>
+</div>
+
+<div class="container">
+    <div id="videos-block" class="box right">
+        <div class="box-title">
+            <div class="tag blue">
+                <p>Videos</p>
+            </div>
+            <div class="content">贏戰考前30天 英語英聽練習</div>
+        </div>
+
+        <div id="resource"></div>
+    </div>
+</div>
+
+<script type="text/x-jquery-template" id="template-audio">
+    <ul class="audios">
+        {{each data}}
+        <li>
+            <div class="audio-name">{{= number}}</div>
+            <audio controls preload="none">
+                <source src="mp3/{{= audio}}" type="audio/mpeg">
+            </audio>
+        </li>
+        {{/each}}
+    </ul>
+</script>
+
+<footer id="ehanlin-footer" class="layout-bottom"></footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.js"></script>
+
+<script>
+    (function() {
+        var data = [
+            {
+                "number": "考前7天 聽力測驗(一) 【Track 01】",
+                "audio": "Track01.mp3"
+            },
+            {
+                "number": "考前7天 聽力測驗(一) 【Track 02】",
+                "audio": "Track02.mp3"
+            },
+            {
+                "number": "考前7天 聽力測驗(一) 【Track 03】",
+                "audio": "Track03.mp3"
+            },
+            {
+                "number": "考前6天 聽力測驗(二) 【Track 04】",
+                "audio": "Track04.mp3"
+            },
+            {
+                "number": "考前6天 聽力測驗(二) 【Track 05】",
+                "audio": "Track05.mp3"
+            },
+            {
+                "number": "考前6天 聽力測驗(二) 【Track 06】",
+                "audio": "Track06.mp3"
+            },
+            {
+                "number": "考前5天 會考模擬試題(一) 【Track 07】",
+                "audio": "Track07.mp3"
+            },
+            {
+                "number": "考前5天 會考模擬試題(一) 【Track 08】",
+                "audio": "Track08.mp3"
+            },
+            {
+                "number": "考前5天 會考模擬試題(一) 【Track 09】",
+                "audio": "Track09.mp3"
+            },
+            {
+                "number": "考前4天 會考模擬試題(二) 【Track 10】",
+                "audio": "Track10.mp3"
+            },
+            {
+                "number": "考前4天 會考模擬試題(二) 【Track 11】",
+                "audio": "Track11.mp3"
+            },
+            {
+                "number": "考前4天 會考模擬試題(二) 【Track 12】",
+                "audio": "Track12.mp3"
+            },
+            {
+                "number": "考前3天 會考模擬試題(三) 【Track 13】",
+                "audio": "Track13.mp3"
+            },
+            {
+                "number": "考前3天 會考模擬試題(三) 【Track 14】",
+                "audio": "Track14.mp3"
+            },
+            {
+                "number": "考前3天 會考模擬試題(三) 【Track 15】",
+                "audio": "Track15.mp3"
+            },
+            {
+                "number": "考前2天 會考模擬試題(四) 【Track 16】",
+                "audio": "Track16.mp3"
+            },
+            {
+                "number": "考前2天 會考模擬試題(四) 【Track 17】",
+                "audio": "Track17.mp3"
+            },
+            {
+                "number": "考前2天 會考模擬試題(四) 【Track 18】",
+                "audio": "Track18.mp3"
+            },
+            {
+                "number": "考前1天 會考模擬試題(五) 【Track 19】",
+                "audio": "Track19.mp3"
+            },
+            {
+                "number": "考前1天 會考模擬試題(五) 【Track 20】",
+                "audio": "Track20.mp3"
+            },
+            {
+                "number": "考前1天 會考模擬試題(五) 【Track 21】",
+                "audio": "Track21.mp3"
+            }
+        ];
+
+        $("#template-audio").tmpl({data: data}).appendTo("#resource")
+
+    })(window)
+</script>
+
+<script type="text/javascript" data-module="ehanlin-header,ehanlin-menu,ehanlin-footer"
+        src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-web-resource/common_webcomponent/current.SNAPSHOT/js/ehanlin-loader.js"></script>
+</body>
+</html>
