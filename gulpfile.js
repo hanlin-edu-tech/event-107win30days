@@ -15,8 +15,11 @@ function uploadGCS(bucketName) {
             if (stats.isFile()) {
                 gcs.bucket(bucketName)
                     .upload(file.path, {
-                        destination: `/event/107win30days/${file.relative}`,
-                        public: true
+                        destination: `/event/108win30days/${file.relative}`,
+                        public: true,
+                        metadata: {
+                            cacheControl: 'public, max-age=10800'
+                          }
                     })
                     .catch(err => {
                         console.error('ERROR:', err);
